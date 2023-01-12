@@ -14,7 +14,7 @@ def start_game():
     result = pyfiglet.figlet_format("Hagman", font="banner3-D")
     print(result)
 
-    if input('Would you like to play Hangman? (Y)').upper() == "Y":
+    if input(Fore.GREEN + 'Would you like to play Hangman? (Y)').upper() == "Y": # noqa
         username()
 
     else:
