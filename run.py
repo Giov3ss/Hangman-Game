@@ -27,8 +27,8 @@ def username():
     Creating an input for the user to write his name 
     Printing a greeting on the screen
     """
-    name = input('Enter your name: \n')
-    print(f"Hey, {name}! Let's Play.")
+    name = input(Fore.LIGHTWHITE_EX + 'Enter your name: \n')
+    print(Fore.GREEN + f"Hey, {name}! Let's Play.")
 
 
 class HangmanGame:
@@ -128,12 +128,9 @@ class HangmanGame:
                 print("Is not a valid guess.")
 
         if self.user_guessed:
-            print('Congrats, you guessed the exactly word, YOU ROCK!')
+            print(Fore.GREEN + f'Congrats, you guessed the exactly word "{self.word}", YOU ROCK!') # noqa
         else:
-            print(
-                "Sorry, you have no more lives! the word was "
-                + self.word + " you can try again :)"
-                )
+            print(Fore.LIGHTRED_EX + f'Sorry, you have no more lives! the word was {self.word} you can try again :)') # noqa
                     
     def display_hangman(self):
         """
@@ -145,12 +142,12 @@ class HangmanGame:
         Letters that the user already guessed
         Words that the user already guessed
         """
-        print(f"Available Letters: {' '.join(sorted(self.available_letters))}")
-        print(STAGES[self.lives])
-        print(self.display_word)
-        print(f"Lives left: {self.lives}")
-        print(f'Letters guessed: {" ".join(self.letter_guessed)}')
-        print(f'Words guessed: {" ".join(self.words_guessed)}')
+        print(Fore.LIGHTWHITE_EX + f"Available Letters: {' '.join(sorted(self.available_letters))}") # noqa
+        print(Fore.LIGHTWHITE_EX + STAGES[self.lives])
+        print(Fore.LIGHTWHITE_EX + self.display_word)
+        print(Fore.LIGHTRED_EX + f"Lives left: {self.lives}")
+        print(Fore.LIGHTWHITE_EX + f'Letters guessed: {" ".join(self.letter_guessed)}') # noqa
+        print(Fore.LIGHTWHITE_EX + f'Words guessed: {" ".join(self.words_guessed)}') # noqa
         print("\n")
 
 
@@ -163,7 +160,7 @@ def main():
     game.get_words_list()
     game.game_play()
 
-    while input('Do you want try again? (Y/N ').upper() == "Y":
+    while input(Fore.LIGHTWHITE_EX + 'Do you want try again? (Y/N ').upper() == "Y": # noqa
         game = HangmanGame()
         game.get_words_list()
         game.game_play()

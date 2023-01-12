@@ -30,6 +30,12 @@ Giovani Fonseca
 
 4. [Data Model/ Classes](#data-model-classes)
 
+5. [Testing](#testing)
+    * [Validation Testing](#validation-testing)
+    * [Manual Testing](#manual-testing)
+    * [Defect Tracking](#defect-tracking)
+    * [Commenting Code](#commenting-code)
+
 4. [Technology Used](#technology-used)  
     * [Language Used](#languages-used)
     * [Tools and Libraries](#tools-and-libraries)
@@ -92,11 +98,19 @@ Giovani Fonseca
 
 ## Future Features
 
+## Testing
+
+### Validation Testing
+
+- run.py
+- words.py
+- stage.py
+
 ## Technology Used
 
 ### Languages Used 
 
-- After studying the JavaScript essentials course with Code Institute, this project was created using HTML, CSS  and JavaScript languages.
+- Python
 
 ### Tools and libraries
 - [coolors.co](https://coolors.co/623d2b-935836-6c6f70-ebebed-b88a68) - The color scheme that was used on the site.
