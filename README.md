@@ -103,8 +103,14 @@ Giovani Fonseca
 ### Validation Testing
 
 - run.py
+<img width="1104" alt="image" src="https://user-images.githubusercontent.com/112728772/212193420-025a08a2-8044-4f93-97ac-05eb3243bdff.png">
+
 - words.py
+<img width="1102" alt="image" src="https://user-images.githubusercontent.com/112728772/212193643-66a6edd4-bc30-4c36-91c3-4ac16bda8804.png">
+
 - stage.py
+<img width="1144" alt="image" src="https://user-images.githubusercontent.com/112728772/212193823-f97440e1-ad57-4758-bf57-6c25e0d9593d.png">
+
 
 ## Technology Used
 
