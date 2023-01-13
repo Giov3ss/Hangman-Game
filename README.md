@@ -133,6 +133,8 @@ Giovani Fonseca
 ### Defect Tracking
 
 ### Commenting Code
+<img width="806" alt="image" src="https://user-images.githubusercontent.com/112728772/212427820-67399cad-a915-4412-bd0d-a619b6d04536.png">
+
 
 ## Technology Used
 
