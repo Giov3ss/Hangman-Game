@@ -67,6 +67,8 @@ Giovani Fonseca
 - Show me an optional message if I want to try again the game.
 
 ## Flowchart
+<img width="723" alt="image" src="https://user-images.githubusercontent.com/112728772/212423963-3c23c17a-1325-49ec-817a-8fe0d080bdd7.png">
+
 
 ## How to Play
 - The user needs to type "Y" to start the game.
