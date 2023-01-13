@@ -118,7 +118,7 @@ class HangmanGame:
                 if guess in self.words_guessed:
                     print(f'You already guessed the word, {guess}')
                 elif guess != self.word:
-                    print(f'{guess}, is not the word.')
+                    print(Fore.LIGHTRED_EX + f'{guess}, is not the word.')
                     self.lives -= 1
                     self.words_guessed.append(guess)
                 else:

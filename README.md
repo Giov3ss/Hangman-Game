@@ -117,6 +117,22 @@ Giovani Fonseca
 - stage.py
 <img width="1144" alt="image" src="https://user-images.githubusercontent.com/112728772/212193823-f97440e1-ad57-4758-bf57-6c25e0d9593d.png">
 
+### Manual Testing
+- [x] Input asking if the user wants to play is working.
+- [x] Input asking the user name is working.
+- [x] Input where the user can type a letter or guess a word is working.
+- [x] Number of lives decreases every time the user tries to guess and it's a wrong letter/word.
+- [x] Hangman stage loses a frame every time the user tries to guess and it's a wrong letter/word.
+- [x] Available letters appearing correctly.
+- [x] Word/Letter guesses working corretly.
+- [x] A message display when the user ran out lives.
+- [x] An alert message appear when the user type an invalid input if is not a letter/word.
+- [x] Input asking if the user wants to try again working corretly.
+- [x] Good bye message at the end working. 
+
+### Defect Tracking
+
+### Commenting Code
 
 ## Technology Used
 
