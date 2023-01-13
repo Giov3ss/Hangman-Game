@@ -23,6 +23,8 @@ Giovani Fonseca
     * [User Goals](#user-goal)
     * [User Stories](#user-stories)
     * [How to Play](#how-to-play)  
+    * [Desing](#desing)
+        * [Flowchart](#flowchart)
 
 2. [Features](#features)
 
@@ -63,6 +65,8 @@ Giovani Fonseca
 - Show me the wrong words.
 - Show me the correct word at the end.
 - Show me an optional message if I want to try again the game.
+
+## Flowchart
 
 ## How to Play
 - The user needs to type "Y" to start the game.
@@ -116,85 +120,42 @@ Giovani Fonseca
 
 ### Languages Used 
 
-- Python
+- [Python](https://en.wikipedia.org/wiki/Python_(programming_language) "Python") for the game code
+- [Markdown](https://en.wikipedia.org/wiki/Markdown) for the content in my README file
 
 ### Tools and libraries
-- [coolors.co](https://coolors.co/623d2b-935836-6c6f70-ebebed-b88a68) - The color scheme that was used on the site.
-- [Google Fonts](https://fonts.google.com/) - Both fonts were used by Google Fonts.
-- [Balsamiq](https://balsamiq.com/) Used to build the wireframes.
-- [Chrome Devtools](https://developer.chrome.com/docs/devtools/) - Used extensively to experiment with grid, flexbox and general responsiveness. 
-- [Gitpod](https://www.gitpod.io/) - Used to create and host the website.
-- [Github](https://github.com/) - Used to deploy the website.
+- [python random library](https://docs.python.org/3/library/random.html?#module-random ".py random") For selection a random word from the deck
+- [Gitpod](https://www.gitpod.io/) - Used to build the gme.
 - [Am I Responsive](https://ui.dev/amiresponsive) - Used to creat an image displaying the homepage on multiple devices.
-- [Favicon](https://favicon.io/) - Used to create the Icon for the website.
-- [CSS Gradient](https://cssgradient.io/) To match the colours.
-- [Browserstack](https://www.browserstack.com/) Provided browser compatibility with real desktop and mobile devices.
-- [Table Generator](https://www.tablesgenerator.com/) Used to make a table of de devices and desktops tested.
+- [Table Generator](https://www.tablesgenerator.com/) Used to make a table explaining the model/methods of the class.
+- [PEP8 Validator](https://pep8ci.herokuapp.com/) For Python validation.
 
-### Testing
-
-[testing.md](testing.md) 
 
 ### Deployment 
 
-[https://giov3ss.github.io/Stuff4Trip/](https://giov3ss.github.io/Stuff4Trip/)
+#### link of the site here 
 
-- The site was deployed to Github pages.
-
-### Run Locally With GitPod
-
-1. Go to the terminal
-2. Type Git command: python3 -m http.server
-3. A pop-up message will appear on the right-hand side, where Open Browser should be clicked
-4. A new page opens where the site is available
-
-* You can deploy this locally if you have the chrome gitpod extension installed
-* Just click the green button in github when in chrome browser to start a gitpod instance
-
-### Deploy to GitHub Pages
-
-1. Navigate to the settings tab in the GitHub repository
-    <img width="1395" alt="image" src="https://user-images.githubusercontent.com/112728772/204665064-f77f28cf-9fdb-4ed4-a6c9-0aad4b7f3853.png">
-
-2. Once in settings, navigate to the pages tab on the left of the page
-    <img width="327" alt="image" src="https://user-images.githubusercontent.com/112728772/204665128-ea0176da-4c5c-4c30-8291-093c810e975c.png">
- 
-3. Under source, select branch ‘main’ and then click ‘save’
-    <img width="770" alt="image" src="https://user-images.githubusercontent.com/112728772/204665218-93e10ba7-633b-416b-9098-5a82a1d36c08.png">
-
-4. Page will not automatically refresh and show a detailed ribbon display to indicate deployment
-    <img width="831" alt="image" src="https://user-images.githubusercontent.com/112728772/204665292-5184480b-41cd-4375-9e72-c0e5f590eaab.png">
-
-
-### To Fork the Repository 
-
-To make a copy or ‘fork’ the repository:
-
-1. Log into GitHub and locate repository
-2. On the right hand side of the page select the ‘fork’ option to create and copy of the original
-
-### To create a Local Clone 
-
-1. under the repository name, click on the ‘code’ tab
-2. in the clone box, HTTPS tab, click on the clipboard icon 
-3. in your IED open GitBash
-4. Changed the current working directory to the location you want the cloned directory to be made
-5. Type ‘git clone’ and then paste the URL copied from GitHub
-6. press enter and the local clone will be created 
+ The site was deployed by Heroku pages. The steps are:
+ - Log in Heroku website;
+ - Click "New" and select > "Create new app";
+ - Choose the name of the app, region and click on > "Create App";
+ - In the menu section only the "Deploy" and "Settings" are relevant.
+ Settings firts:
+ - Buildpacks need to be added. First Python and second is node.js in this follow sequence. Save this section.
+ Deploy:
+ - The "Deploy" section needs to be selected from the menu and connect it to Github;
+ - Firts enter the name of your repository that you want to connect, the click > "connect";
+ - A choice will appear, you can Deploy either automatic or manual deployment, which deploys the current state of the branch;
+ - Then you can click on Heroku app > "Deploy Branch"
 
 
 ### Credits
  - I would like to thank my mentor Malia for her help, tips and advise all the time.
- - Instructions on how to implement the HTML and CSS code using GitHub was taken from the HTML, CSS and Javascript course from Code Institute.
- - [Code Institute](https://codeinstitute.net/nl/) With the JavaScript Essentials.
- - [Freshman.tech](https://freshman.tech/todo-list/) Used to understand about the To-do-list project.
- - [Youtube](https://www.youtube.com/watch?v=MkESyVB4oUw&t=2010s) This video inspired me and helped me a lot to understanding more about JavaScript and how to start my project. 
+ - [Code Institute](https://codeinstitute.net/nl/) With the Python Essentials and template.
  - [Stackoverflow](https://stackoverflow.com) When I was in doubt about something.
- - [CSS Gradient](https://cssgradient.io/) Helped me to match the background colors.
- - [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) Helped me to keep the background image in the same spot, so the user can scroll down and the image does not break.
- - [JSON Local Storage](https://frontend.turing.edu/) Helped me to understand a bit about Local Storage using JSON.
+ - [Invent with Python](https://inventwithpython.com/invent4thed/chapter8.html) Explained the whole game.
+ - [Geeks for Geeks](https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/) Provided explanation on how to import the colors in python text, also the custom fonts.
  
 
 ### Media 
- - The Main-Image are from the free website: [Pexels](https://www.pexels.com/)
- - Icon for the website: [Favicon](https://favicon.io/)
+ - [Fonts](https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/) Used to get custom fonts.
