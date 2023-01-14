@@ -64,7 +64,9 @@ Giovani Fonseca
 
 ## User Stories
 - Be able to type my name.
+- Show me the letter availables.
 - Show me the wrong words.
+- Show me the wrong letters.
 - Show me the correct word at the end.
 - Show me an optional message if I want to try again the game.
 
@@ -88,8 +90,13 @@ Giovani Fonseca
 - Guess words will get all the words the user will try to guess.
 - Available Letters are updated every time the user guesses the letter.
 - The lives and Hangman stage will be updated every time the user makes an incorrect guess.
+- An input at the end if the user wants to try again.
 
 ## Future Features
+
+- User login.
+- A dashboard where the user can see how many wins and losses he/she has.
+
 
 ## Data Model/ Classes
 
@@ -131,6 +138,9 @@ Giovani Fonseca
 - [x] Good bye message at the end working. 
 
 ### Defect Tracking
+
+- Do you want to play input, there should be an if statement, so if the user doesn't want to play, the game just ends.
+
 
 ### Defect of Note
 

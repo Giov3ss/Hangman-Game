@@ -15,9 +15,9 @@ def start_game():
     """
     result = pyfiglet.figlet_format("Hagman", font="banner3-D")
     print(result)
-    print("Welcome player! It's time to see if you can save the Hangman or not, the power is in your hands!")  # noqa
-    sleep(1)
-    if input(Fore.GREEN + 'Would you like to play Hangman? (Y)').upper() == "Y":  # noqa
+    print(Fore.YELLOW + "Welcome player! It's time to see if you can save the Hangman or not, the power is in your hands!")  # noqa
+    sleep(2)
+    if input(Fore.WHITE + 'Would you like to play Hangman? (Y)').upper() == "Y":  # noqa
         username()
 
     else:
@@ -31,7 +31,7 @@ def username():
     Printing a greeting on the screen
     """
     name = input(Fore.LIGHTWHITE_EX + 'Enter your name: \n')
-    print(Fore.GREEN + f"Hey, {name}! Let's Play.")
+    print(Fore.YELLOW + f"Hey, {name}! Let's see how good you are.")
     sleep(1)
 
 
@@ -132,8 +132,10 @@ class HangmanGame:
                 print("Is not a valid guess.")
 
         if self.user_guessed:
+            sleep(1)
             print(Fore.GREEN + f'Congrats, you guessed the exactly word "{self.word}", YOU ROCK!')  # noqa
         else:
+            sleep(1)
             print(Fore.LIGHTRED_EX + f'Sorry, you have no more lives to save the Hangman! the word was {self.word} you can try again :)')  # noqa
 
     def display_hangman(self):
