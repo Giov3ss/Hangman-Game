@@ -109,7 +109,7 @@ Giovani Fonseca
 ### Validation Testing
 
 - run.py
-<img width="1104" alt="image" src="https://user-images.githubusercontent.com/112728772/212193420-025a08a2-8044-4f93-97ac-05eb3243bdff.png">
+<img width="1142" alt="image" src="https://user-images.githubusercontent.com/112728772/212495516-d172262b-7d1f-439c-a4e7-12c228f95f70.png">
 
 - words.py
 <img width="1102" alt="image" src="https://user-images.githubusercontent.com/112728772/212193643-66a6edd4-bc30-4c36-91c3-4ac16bda8804.png">
