@@ -38,16 +38,18 @@ Giovani Fonseca
     * [Defect Tracking](#defect-tracking)
     * [Commenting Code](#commenting-code)
 
-4. [Technology Used](#technology-used)  
+6. [Technology Used](#technology-used)  
     * [Language Used](#languages-used)
     * [Tools and Libraries](#tools-and-libraries)
 
-5. [Testing](#testing)
-
-6. [Deployment](#deployment)  
+7. [Deployment](#deployment)
+    * [Fork the repository](fork-the-repository)
+    * [Heroku](#heroku)
   
-7. [Credits](#credits)
+8. [Credits](#credits)
     * [Media](#media)  
+
+9. [Acknowledgements](#acknowledgements)
 
 - - -
 
@@ -102,8 +104,6 @@ Giovani Fonseca
 | display_hangman(self) | Display all the visual cues for the user to play the game,  so the user can see all the Available letters, Hangman Stage, display of word for user's guesses, how many lives are left for the user, Letters that the user already guessed and Words that the user already guessed. |
 | main()                | Run the whole game and ask the user if he/she wants to try again                                                                                                                                                                                                                   |
 
-## Future Features
-
 ## Testing
 
 ### Validation Testing
@@ -132,12 +132,14 @@ Giovani Fonseca
 
 ### Defect Tracking
 
+### Defect of Note
+
+### Outstanding Defects
+
 ### Commenting Code
 <img width="806" alt="image" src="https://user-images.githubusercontent.com/112728772/212427820-67399cad-a915-4412-bd0d-a619b6d04536.png">
 
-
 ## Technology Used
-
 ### Languages Used 
 
 - [Python](https://en.wikipedia.org/wiki/Python_(programming_language) "Python") for the game code
@@ -166,7 +168,13 @@ Giovani Fonseca
  - The "Deploy" section needs to be selected from the menu and connect it to Github;
  - Firts enter the name of your repository that you want to connect, the click > "connect";
  - A choice will appear, you can Deploy either automatic or manual deployment, which deploys the current state of the branch;
- - Then you can click on Heroku app > "Deploy Branch"
+ - Then you can click on Heroku app > "Deploy Branch".
+
+ ### Fork the repository
+
+ ### Gitpode
+
+ ### Heroku
 
 
 ### Credits
@@ -179,3 +187,6 @@ Giovani Fonseca
 
 ### Media 
  - [Fonts](https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/) Used to get custom fonts.
+
+ ### Acknowledgements
+ - This is a game for Project 3 for Full Stack Software Developer program with code Institute

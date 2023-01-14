@@ -1,5 +1,7 @@
 import random
 import string
+from time import sleep
+import os
 from colorama import Fore
 from words import words_list
 from stage import STAGES
@@ -13,8 +15,9 @@ def start_game():
     """
     result = pyfiglet.figlet_format("Hagman", font="banner3-D")
     print(result)
-
-    if input(Fore.GREEN + 'Would you like to play Hangman? (Y)').upper() == "Y": # noqa
+    print("Welcome player! It's time to see if you can save the Hangman or not, the power is in your hands!")  # noqa
+    sleep(1)
+    if input(Fore.GREEN + 'Would you like to play Hangman? (Y)').upper() == "Y":  # noqa
         username()
 
     else:
@@ -24,11 +27,12 @@ def start_game():
 
 def username():
     """
-    Creating an input for the user to write his name 
+    Creating an input for the user to write his name
     Printing a greeting on the screen
     """
     name = input(Fore.LIGHTWHITE_EX + 'Enter your name: \n')
     print(Fore.GREEN + f"Hey, {name}! Let's Play.")
+    sleep(1)
 
 
 class HangmanGame:
@@ -61,7 +65,7 @@ class HangmanGame:
 
     def __init__(self):
         """
-        This Initialize method will start the class off 
+        This Initialize method will start the class off
         as the user just start to play
         """
         self.word = ""
@@ -80,12 +84,12 @@ class HangmanGame:
         the length of the words_list
         """
         self.word = random.choice(words_list).upper()
-        self.display_word = "_ " * len(self.word)
+        self.display_word = "+ " * len(self.word)
 
     def game_play(self):
         """
         The loop will run until the user guesses the right word or runs out of lives # noqa
-        """ 
+        """
         # Getting the user input
         while not self.user_guessed and self.lives > 0:
             self.display_hangman()
@@ -94,14 +98,14 @@ class HangmanGame:
             if len(guess) == 1 and guess.isalpha():
                 self.available_letters -= {guess}
                 if guess in self.letter_guessed:
-                    print(f'You already guessed the letter, {guess}')
+                    print(Fore.LIGHTRED_EX + f'You already guessed the letter, {guess}')  # noqa
 
                 elif guess not in self.word:
-                    print(f'{guess}, is not in the word.')
+                    print(Fore.LIGHTRED_EX + f'{guess}, is not in the word.')
                     self.lives -= 1
                     self.letter_guessed.append(guess)
                 else:
-                    print(f'Congrats! {guess} is in the word.')
+                    print(Fore.LIGHTGREEN_EX + f'Congrats! {guess} is in the word.')  # noqa
                     self.letter_guessed.append(guess)
                     word_as_list = [x for x in self.display_word if x != ' ']
                     indices = [
@@ -111,12 +115,12 @@ class HangmanGame:
                     for index in indices:
                         word_as_list[index] = guess
                     self.display_word = " ".join(word_as_list)
-                    if "_" not in self.display_word:
+                    if "+" not in self.display_word:
                         self.user_guessed = True
 
             elif len(guess) == len(self.word) and guess.isalpha():
                 if guess in self.words_guessed:
-                    print(f'You already guessed the word, {guess}')
+                    print(Fore.LIGHTRED_EX + f'You already guessed the word, {guess}')  # noqa
                 elif guess != self.word:
                     print(Fore.LIGHTRED_EX + f'{guess}, is not the word.')
                     self.lives -= 1
@@ -128,10 +132,10 @@ class HangmanGame:
                 print("Is not a valid guess.")
 
         if self.user_guessed:
-            print(Fore.GREEN + f'Congrats, you guessed the exactly word "{self.word}", YOU ROCK!') # noqa
+            print(Fore.GREEN + f'Congrats, you guessed the exactly word "{self.word}", YOU ROCK!')  # noqa
         else:
-            print(Fore.LIGHTRED_EX + f'Sorry, you have no more lives! the word was {self.word} you can try again :)') # noqa
-                    
+            print(Fore.LIGHTRED_EX + f'Sorry, you have no more lives to save the Hangman! the word was {self.word} you can try again :)')  # noqa
+
     def display_hangman(self):
         """
         Creating a function that will display:
@@ -142,12 +146,14 @@ class HangmanGame:
         Letters that the user already guessed
         Words that the user already guessed
         """
-        print(Fore.LIGHTWHITE_EX + f"Available Letters: {' '.join(sorted(self.available_letters))}") # noqa
+        sleep(1)
+        os.system('clear')
+        print(Fore.LIGHTWHITE_EX + f"Available Letters: {' '.join(sorted(self.available_letters))}")  # noqa
         print(Fore.LIGHTWHITE_EX + STAGES[self.lives])
         print(Fore.LIGHTWHITE_EX + self.display_word)
         print(Fore.LIGHTRED_EX + f"Lives left: {self.lives}")
-        print(Fore.LIGHTWHITE_EX + f'Letters guessed: {" ".join(self.letter_guessed)}') # noqa
-        print(Fore.LIGHTWHITE_EX + f'Words guessed: {" ".join(self.words_guessed)}') # noqa
+        print(Fore.LIGHTWHITE_EX + f'Letters guessed: {" ".join(self.letter_guessed)}')  # noqa
+        print(Fore.LIGHTWHITE_EX + f'Words guessed: {" ".join(self.words_guessed)}')  # noqa
         print("\n")
 
 
@@ -160,7 +166,7 @@ def main():
     game.get_words_list()
     game.game_play()
 
-    while input(Fore.LIGHTWHITE_EX + 'Do you want try again? (Y/N ').upper() == "Y": # noqa
+    while input(Fore.LIGHTWHITE_EX + 'Do you want try again? (Y/N ').upper() == "Y":  # noqa
         game = HangmanGame()
         game.get_words_list()
         game.game_play()
