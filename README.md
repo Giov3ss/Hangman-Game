@@ -73,13 +73,16 @@ Giovani Fonseca
 
 
 ## How to Play
-- The user needs to type "Y" to start the game.
+- The user needs to type "1" to start the game or "2" to quit.
 - The user enter his/her name.
 - A random word is choose e the user can type a letter.
 - After the user types a letter, the program will run and see if the letter is in the word, if so, it will appear in the console below, if not, a life and a frame will be taken from the Hangman.
 - All typed letter will appear on the top of the Hangman frame with a message that the letter is not in the word.
 - The user has 6 lives to find the correct word, if so, he will receive a congratulations message, and the correct word. If the user does not find the right word, a message will appear saying that the lives are over and the correct word will appear.
 - The user has the option to play again and if yes, a new word is generated and he/she can start guessing the word.
+
+https://user-images.githubusercontent.com/112728772/212571674-174a2c26-d360-4e73-aedb-e4e8e1670e56.mp4
+
 
 ## Features 
 - A user input that he/she choose if want to start the game.
