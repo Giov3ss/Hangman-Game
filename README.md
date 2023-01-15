@@ -5,12 +5,10 @@
 ## IMAGE GOES HERE 
 
 ## Live Site 
-
-## link of Site after deployed 
+[https://hangman-gameplay.herokuapp.com/](https://hangman-gameplay.herokuapp.com/)
 
 ## Repository
-
-## repo 
+[https://github.com/Giov3ss/Hangman-Game/blob/main/README.md](https://github.com/Giov3ss/Hangman-Game/blob/main/README.md)
 
 ## Author
 
