@@ -1,8 +1,8 @@
 # **Hangman-Game**
 
+<img width="1308" alt="image" src="https://user-images.githubusercontent.com/112728772/212570491-f28b6c86-58c8-436b-8591-28cd1c616d88.png">
 
-
-## IMAGE GOES HERE 
+- Hangman is a classic word guessing game in which players must correctly guess a word (that will be pick randomly in the list of words by the computer) before a certain number of incorrect guesses are made. Players can make guesses by suggesting letters that they think are in the word, and if the suggested letter is in the word, it is revealed in its correct position(s). If the suggested letter is not in the word, a part of the hangman drawing is added, and the player loses a "lives". The game is typically won by the player who correctly guesses the word before the hangman is fully drawn in the screen.
 
 ## Live Site 
 [https://hangman-gameplay.herokuapp.com/](https://hangman-gameplay.herokuapp.com/)
