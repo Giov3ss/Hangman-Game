@@ -19,9 +19,10 @@ def start_game():
 
     print(Fore.LIGHTWHITE_EX + "What do you want to do?")
     print("1 = Play Game")
-    print("2 = Quit")
+    print("2 = View rules")
+    print("3 = Quit")
     answer = input("Enter your answer here \n").strip()
-    while answer not in ["1", "2", 1, 2]:
+    while answer not in ["1", "2", "3", 1, 2, 3]:
         print("Invalid answer, try again!")
         sleep(2)
         start_game()
@@ -31,6 +32,27 @@ def start_game():
         game.get_words_list()
         game.game_play()
         start_game()
+    elif answer == "2":
+        display_rules()
+        input("Press any key to go back to the main menu.\n")
+        start_game()
+    else:
+        good_bye = pyfiglet.figlet_format("Good Bye!", font="banner3-D")
+        print(good_bye)
+    
+
+def display_rules():
+    """
+    Display the rules of the Hangman game.
+    The function will print the main objective, gameplay and the number of tries the user has to correctly guess the word.  # noqa
+    """
+    print("The main objective of Hangman is to guess a word within 6 tries by entering letters or a word of the same length as the one you are trying to solve.")  # noqa
+    print("When you play Hangman, you are presented a screen with available letters. A pixelated hanman gallows that is empty to start with.")  # noqa
+    print("A series of + symbols indicated the length of the word,  the number of lives left, a recap of the letters you have guessed, and a recap of words guessed.")  # noqa
+    print("As you make guesses that are correct the proper placement of letters are filled in.")  # noqa
+    print("If you make an incorrect guess a body part is added to the hangman graphic and your number of tries left goes down.")  # noqa
+    print("You have 6 guesses to start with.")
+    print("Good Luck and May The Odds Always Be in Your Favor.")
 
 
 def username():
