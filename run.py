@@ -194,7 +194,8 @@ class HangmanGame:
             print(Fore.GREEN + f'Congrats, you guessed the exactly word "{self.word}", YOU ROCK!')  # noqa
         else:
             sleep(1)
-            print(Fore.LIGHTRED_EX + f'Sorry, you have no more lives to save the Hangman! the word was {self.word} you can try again :)')  # noqa
+            print(
+                Fore.LIGHTRED_EX + f'Sorry, you have no more lives! the word was {self.word} you can try again :)')  # noqa
         # END HERE
 
     def display_hangman(self):
@@ -225,7 +226,7 @@ def main():
     # Greeting the user
     result = pyfiglet.figlet_format("Hangman", font="banner3-D")
     print(result)
-    print(Fore.YELLOW + "Welcome player! It's time to see if you can save the Hangman or not, the power is in your hands! \n")  # noqa
+    print(Fore.YELLOW + "Welcome player! It's time to see if you can save the Hangman or not! \n")  # noqa
     sleep(2)
     # welcome user
     username()
