@@ -3,7 +3,7 @@ import string
 from time import sleep
 import os
 from colorama import Fore
-from words import words_list
+from words import WORDS_LIST
 from stage import STAGES
 import pyfiglet
 
@@ -16,7 +16,7 @@ def start_game():
     Prompts the player to start the game. If the player enters 'Y', calls the username() function,  # noqa
     otherwise prompts the player to try again.
     """
-    
+
     print(Fore.LIGHTWHITE_EX + "What do you want to do?")
     print("1 = Play Game")
     print("2 = Quit")
@@ -25,7 +25,7 @@ def start_game():
         print("Invalid answer, try again!")
         sleep(2)
         start_game()
-    
+
     if answer == "1":
         game = HangmanGame()
         game.get_words_list()
@@ -40,7 +40,7 @@ def username():
     Asks the player to enter their name and stores it in the variable 'name'.
     Prints a greeting message including the player's name.
     """
-    
+
     name = input(Fore.LIGHTWHITE_EX + 'Enter your name: \n')
     print(Fore.YELLOW + f"Hey, {name}! Let's see how good you are.")
     sleep(1)
@@ -89,7 +89,7 @@ class HangmanGame:
      the current stage of the hangman game, the current display of the word for the user's guesses,
         the number of lives remaining for the user, the letters that the user has already guessed,
         and the words that the user has already guessed.
-        
+
     main():
     This function is the main entry point of the game, it will run the whole hangman game. # noqa
     The function starts by greeting the user, with a fancy text,
@@ -126,7 +126,7 @@ class HangmanGame:
         Will also go display an underline *_* based on
         the length of the words_list
         """
-        self.word = random.choice(words_list).upper()
+        self.word = random.choice(WORDS_LIST).upper()
         self.display_word = "+ " * len(self.word)
 
     def game_play(self):
@@ -222,7 +222,7 @@ def main():
     then it will call the username() function to get the user's name and the start_game() function to start the game.  # noqa
     Once the game is completed, the function will say a fancy good bye to the user.  # noqa
     """
-    # Greeting the user 
+    # Greeting the user
     result = pyfiglet.figlet_format("Hagman", font="banner3-D")
     print(result)
     print(Fore.YELLOW + "Welcome player! It's time to see if you can save the Hangman or not, the power is in your hands! \n")  # noqa
