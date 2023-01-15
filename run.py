@@ -12,9 +12,10 @@ def start_game():
     """
     Starts a new Hangman game.
 
-    Prints an ASCII art of the word "Hangman" and welcomes the player.
-    Prompts the player to start the game. If the player enters 'Y', calls the username() function,  # noqa
-    otherwise prompts the player to try again.
+    Will prompt the user with options to start the game, view the rules or 
+    quit the game.
+    Based on the user's answer, the game will start, display the rules or 
+    exit the program.
     """
 
     print(Fore.LIGHTWHITE_EX + "What do you want to do?")
@@ -36,24 +37,23 @@ def start_game():
         display_rules()
         input("Press any key to go back to the main menu.\n")
         start_game()
-    else:
-        good_bye = pyfiglet.figlet_format("Good Bye!", font="banner3-D")
-        print(good_bye)
-    
+
 
 def display_rules():
     """
     Display the rules of the Hangman game.
     The function will print the main objective, gameplay and the number of tries the user has to correctly guess the word.  # noqa
     """
-    print("The main objective of Hangman is to guess a word within 6 tries by entering letters or a word of the same length as the one you are trying to solve.")  # noqa
-    print("When you play Hangman, you are presented a screen with available letters. A pixelated hanman gallows that is empty to start with.")  # noqa
-    print("A series of + symbols indicated the length of the word,  the number of lives left, a recap of the letters you have guessed, and a recap of words guessed.")  # noqa
-    print("As you make guesses that are correct the proper placement of letters are filled in.")  # noqa
-    print("If you make an incorrect guess a body part is added to the hangman graphic and your number of tries left goes down.")  # noqa
-    print("You have 6 guesses to start with.")
-    print("Good Luck and May The Odds Always Be in Your Favor.")
-
+    print("The main objective of Hangman is to guess a word within 6 tries by entering letters" +
+    "or a word of the same length as the one you are trying to solve."
+    "When you play Hangman, you are presented a screen with available letters." +
+    "A pixelated hanman gallows that is empty to start with."
+    "A series of + symbols indicated the length of the word,  the number of lives left," +
+    "a recap of the letters you have guessed, and a recap of words guessed."
+    "As you make guesses that are correct the proper placement of letters are filled in."
+    "If you make an incorrect guess a body part is added to the hangman graphic and your number of tries left goes down."
+    "You have 6 guesses to start with."
+    "Good Luck and May The Odds Always Be in Your Favor.")
 
 def username():
     """
