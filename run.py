@@ -44,17 +44,21 @@ def display_rules():
     Display the rules of the Hangman game.
     The function will print the main objective, gameplay and the number of tries the user has to correctly guess the word.  # noqa
     """
-    print("""The main objective of Hangman is to guess a word within 6 tries 
-    by entering letters or a word of the same length as the one you are trying to solve.  # noqa
+    print("""
+    The main objective of Hangman is to guess a word within 6 tries
+    by entering letters or a word of the same length as the one you 
+    are trying to solve.  
 
     When you play Hangman, you are presented a screen with available letters.
     A pixelated hanman gallows that is empty to start with.
 
-    A series of + symbols indicated the length of the word, the number of lives left,  # noqa
-    a recap of the letters you have guessed, and a recap of words guessed.
-
-    As you make guesses that are correct the proper placement of letters are filled in.  # noqa
-    If you make an incorrect guess a body part is added to the hangman graphic 
+    A series of + symbols indicated the length of the word, 
+    the number of lives left, a recap of the letters you have guessed, 
+    and a recap of words guessed.
+    
+    As you make guesses that are correct the proper placement of letters 
+    are filled in.
+    If you make an incorrect guess a body part is added to the hangman graphic
     and your number of tries left goes down.
 
     You have 6 guesses to start with.
