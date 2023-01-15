@@ -223,7 +223,7 @@ def main():
     Once the game is completed, the function will say a fancy good bye to the user.  # noqa
     """
     # Greeting the user
-    result = pyfiglet.figlet_format("Hagman", font="banner3-D")
+    result = pyfiglet.figlet_format("Hangman", font="banner3-D")
     print(result)
     print(Fore.YELLOW + "Welcome player! It's time to see if you can save the Hangman or not, the power is in your hands! \n")  # noqa
     sleep(2)
