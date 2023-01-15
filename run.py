@@ -35,7 +35,7 @@ def start_game():
         start_game()
     elif answer == "2":
         display_rules()
-        input("Press any key to go back to the main menu.\n")
+        input(Fore.YELLOW + "Press any key to go back to the main menu.\n")
         start_game()
 
 
@@ -58,7 +58,7 @@ def display_rules():
     and your number of tries left goes down.
 
     You have 6 guesses to start with.
-    
+
     Good Luck and May The Odds Always Be in Your Favor.""")
 
 
