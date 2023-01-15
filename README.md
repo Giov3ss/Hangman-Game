@@ -116,13 +116,13 @@ Giovani Fonseca
 ### Validation Testing
 
 - run.py
-<img width="1142" alt="image" src="https://user-images.githubusercontent.com/112728772/212495516-d172262b-7d1f-439c-a4e7-12c228f95f70.png">
+<img width="1163" alt="image" src="https://user-images.githubusercontent.com/112728772/212565966-a76c2e91-6eda-475a-a684-9b5d54ac415f.png">
 
 - words.py
-<img width="1102" alt="image" src="https://user-images.githubusercontent.com/112728772/212193643-66a6edd4-bc30-4c36-91c3-4ac16bda8804.png">
+<img width="1117" alt="image" src="https://user-images.githubusercontent.com/112728772/212566110-e16f32f7-0232-4ca2-9c0e-49767c5037f2.png">
 
 - stage.py
-<img width="1144" alt="image" src="https://user-images.githubusercontent.com/112728772/212193823-f97440e1-ad57-4758-bf57-6c25e0d9593d.png">
+<img width="1204" alt="image" src="https://user-images.githubusercontent.com/112728772/212566005-590d2ec4-68cb-45f6-8c10-86ca0851d04b.png">
 
 ### Manual Testing
 - [x] Input asking if the user wants to play is working.
