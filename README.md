@@ -87,10 +87,10 @@ https://user-images.githubusercontent.com/112728772/212571674-174a2c26-d360-4e73
 ## Features 
 
 A input where the user can write his name, and a "let's play" with the name of the user:
-- <img width="737" alt="image" src="https://user-images.githubusercontent.com/112728772/212762676-f64aec9f-a70a-4b54-b4d6-20592b4b04e1.png">
+- <img width="738" alt="image" src="https://user-images.githubusercontent.com/112728772/212765686-0a128c88-b807-496b-8950-b6574a93a96e.png">
 
 A user input that he/she choose if want to start the game, view the rules or quit:
-<img width="737" alt="image" src="https://user-images.githubusercontent.com/112728772/212762747-4a4b3ab4-7a3a-4273-bd63-4fc9aea436e0.png">
+- <img width="733" alt="image" src="https://user-images.githubusercontent.com/112728772/212765718-a1304f57-de48-4622-8501-fe2090433602.png">
 
 If the user choose 1, the game start:
 - <img width="740" alt="image" src="https://user-images.githubusercontent.com/112728772/212763046-715ef651-2ef7-4654-b17e-603c41000469.png">
