@@ -69,7 +69,10 @@ Giovani Fonseca
 - Show me the correct word at the end.
 - Show me an optional message if I want to try again the game.
 
-## Flowchart
+## Desing
+
+### Flowchart
+
 <img width="911" alt="image" src="https://user-images.githubusercontent.com/112728772/212774770-06682e03-ea47-4c77-811b-b011ebb9676d.png">
 
 
