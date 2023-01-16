@@ -69,7 +69,8 @@ Giovani Fonseca
 - Show me an optional message if I want to try again the game.
 
 ## Flowchart
-<img width="723" alt="image" src="https://user-images.githubusercontent.com/112728772/212423963-3c23c17a-1325-49ec-817a-8fe0d080bdd7.png">
+<img width="911" alt="image" src="https://user-images.githubusercontent.com/112728772/212774770-06682e03-ea47-4c77-811b-b011ebb9676d.png">
+
 
 
 ## How to Play
