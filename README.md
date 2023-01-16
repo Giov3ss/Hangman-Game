@@ -169,9 +169,12 @@ If the user runs out of lives, a message appears with the correct word, and the 
 - [x] Good bye message at the end working. 
 
 ### Defect Tracking
+- If the word or letter was succesful should appear a message in Green.
+- If the user guess a wrong letter or world, the message should appear in Red.
+- Should have a print statement that tells the user how long the word is.
 
-- Do you want to play input, there should be an if statement, so if the user doesn't want to play, the game just ends.
-
+### Outstanding Defects
+- The game was supposed to have words from A to Z, but my program stuck on words from A to E, and I couldn't fix it. Yes, it looks strange, but it does not affect the main functionality of the site, the game is working normally.
 
 ### Commenting Code
 <img width="806" alt="image" src="https://user-images.githubusercontent.com/112728772/212427820-67399cad-a915-4412-bd0d-a619b6d04536.png">
