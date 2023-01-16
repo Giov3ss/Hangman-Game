@@ -86,29 +86,38 @@ https://user-images.githubusercontent.com/112728772/212571674-174a2c26-d360-4e73
 
 ## Features 
 
-A input where the user can write his name, and a "let's play" with the name of the user:
+An input where the user can write his name, and a "let's play" with the name of the user:
+
  <img width="731" alt="image" src="https://user-images.githubusercontent.com/112728772/212767436-713c4fc1-fec0-429b-b789-589083d4522e.png">
 
 
-A user input that he/she choose if want to start the game, view the rules or quit:
+An user input that he/she choose if want to start the game, view the rules or quit:
+
  <img width="733" alt="image" src="https://user-images.githubusercontent.com/112728772/212765718-a1304f57-de48-4622-8501-fe2090433602.png">
 
+
 If the user choose 1, the game start:
+
  <img width="740" alt="image" src="https://user-images.githubusercontent.com/112728772/212763046-715ef651-2ef7-4654-b17e-603c41000469.png">
 
 If the user choose 2, the rules will appear at the screen (the user can press any key to go back to the menu options):
+
  <img width="735" alt="image" src="https://user-images.githubusercontent.com/112728772/212763194-ff81ab41-ebf4-4025-9fc7-6e41bd57f778.png">
 
 If the user choose 3, the game just finish, and a fancy "Good Bye" display at the screen:
- <img width="735" alt="image" src="https://user-images.githubusercontent.com/112728772/212763461-a56ab092-540e-4d32-bb4c-5c91af369f78.png">
+
+  <img width="735" alt="image" src="https://user-images.githubusercontent.com/112728772/212763461-a56ab092-540e-4d32-bb4c-5c91af369f78.png">
 
 Win by Letter:
+
  <img width="737" alt="image" src="https://user-images.githubusercontent.com/112728772/212762527-a09b165b-a695-4826-bf8d-59d2b8f2e0ab.png">
 
 Win by Word:
+
  <img width="729" alt="image" src="https://user-images.githubusercontent.com/112728772/212764290-c9bc9737-bbd0-4f4b-993f-0d383c9016a2.png">
 
 If the user run out of lives, a looses message appear with the correct word, and the user can choose, try one more time, view the rules or quit the game:
+
  <img width="728" alt="image" src="https://user-images.githubusercontent.com/112728772/212763920-dbeab556-e960-4513-a731-879c37f5e1d0.png">
 
 ## Future Features
