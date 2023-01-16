@@ -44,6 +44,7 @@ def display_rules():
     Display the rules of the Hangman game.
     The function will print the main objective, gameplay and the number of tries the user has to correctly guess the word.  # noqa
     """
+    
     print("""
     The main objective of Hangman is to guess a word within 6 tries
     by entering letters or a word of the same length as the one you 
