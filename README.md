@@ -188,6 +188,7 @@ If the user runs out of lives, a message appears with the correct word, and the 
 ### Tools and libraries
 - [python random library](https://docs.python.org/3/library/random.html?#module-random ".py random") For selection a random word from the deck
 - [Gitpod](https://www.gitpod.io/) - Used to build the gme.
+- [Colorama](https://pypi.org/project/colorama/) - Used to put some color in the text.
 - [Am I Responsive](https://ui.dev/amiresponsive) - Used to creat an image displaying the homepage on multiple devices.
 - [Table Generator](https://www.tablesgenerator.com/) Used to make a table explaining the model/methods of the class.
 - [PEP8 Validator](https://pep8ci.herokuapp.com/) For Python validation.
@@ -242,13 +243,12 @@ If the user runs out of lives, a message appears with the correct word, and the 
  <img width="1288" alt="image" src="https://user-images.githubusercontent.com/112728772/212567722-37180822-1fd8-409c-9626-e90fe91e1c5d.png">
 
 
-
-
 ### Credits
  - I would like to thank my mentor Malia for her help, tips and advise all the time.
  - [Code Institute](https://codeinstitute.net/nl/) With the Python Essentials and template.
  - [Stackoverflow](https://stackoverflow.com) When I was in doubt about something.
  - [Invent with Python](https://inventwithpython.com/invent4thed/chapter8.html) Explained the whole game.
+ - [Youtube](https://youtu.be/m4nEnsavl6w) This video helped me understand the logic of the game.
  - [Geeks for Geeks](https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/) Provided explanation on how to import the colors in python text, also the custom fonts.
  
 
