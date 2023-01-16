@@ -85,13 +85,30 @@ https://user-images.githubusercontent.com/112728772/212571674-174a2c26-d360-4e73
 
 
 ## Features 
-- A user input that he/she choose if want to start the game.
-- A input where the user can write his name, and a "let's play" with the name of the user.
-- Letter guessed will receive all the guessed letter that user guesses.
-- Guess words will get all the words the user will try to guess.
-- Available Letters are updated every time the user guesses the letter.
-- The lives and Hangman stage will be updated every time the user makes an incorrect guess.
-- An input at the end if the user wants to try again.
+
+A input where the user can write his name, and a "let's play" with the name of the user:
+- <img width="737" alt="image" src="https://user-images.githubusercontent.com/112728772/212762676-f64aec9f-a70a-4b54-b4d6-20592b4b04e1.png">
+
+A user input that he/she choose if want to start the game, view the rules or quit:
+<img width="737" alt="image" src="https://user-images.githubusercontent.com/112728772/212762747-4a4b3ab4-7a3a-4273-bd63-4fc9aea436e0.png">
+
+If the user choose 1, the game start:
+- <img width="740" alt="image" src="https://user-images.githubusercontent.com/112728772/212763046-715ef651-2ef7-4654-b17e-603c41000469.png">
+
+If the user choose 2, the rules will appear at the screen (the user can press any key to go back to the menu options):
+- <img width="735" alt="image" src="https://user-images.githubusercontent.com/112728772/212763194-ff81ab41-ebf4-4025-9fc7-6e41bd57f778.png">
+
+If the user choose 3, the game just finish, and a fancy "Good Bye" display at the screen:
+- <img width="735" alt="image" src="https://user-images.githubusercontent.com/112728772/212763461-a56ab092-540e-4d32-bb4c-5c91af369f78.png">
+
+Win by Letter:
+- <img width="737" alt="image" src="https://user-images.githubusercontent.com/112728772/212762527-a09b165b-a695-4826-bf8d-59d2b8f2e0ab.png">
+
+Win by Word:
+- <img width="729" alt="image" src="https://user-images.githubusercontent.com/112728772/212764290-c9bc9737-bbd0-4f4b-993f-0d383c9016a2.png">
+
+If the user run out of lives, a looses message appear with the correct word, and the user can choose, try one more time, view the rules or quit the game:
+- <img width="728" alt="image" src="https://user-images.githubusercontent.com/112728772/212763920-dbeab556-e960-4513-a731-879c37f5e1d0.png">
 
 ## Future Features
 
