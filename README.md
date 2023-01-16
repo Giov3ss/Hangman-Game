@@ -34,6 +34,7 @@ Giovani Fonseca
     * [Validation Testing](#validation-testing)
     * [Manual Testing](#manual-testing)
     * [Defect Tracking](#defect-tracking)
+    * [Outstanding Defects](#outstanding-defects)
     * [Commenting Code](#commenting-code)
 
 6. [Technology Used](#technology-used)  
