@@ -211,21 +211,35 @@ If the user runs out of lives, a message appears with the correct word, and the 
  - Then you can click on Heroku app > "Deploy Branch".
 
  ### Fork the repository
+
+[https://github.com/Giov3ss/Hangman-Game/blob/main/README.md](https://github.com/Giov3ss/Hangman-Game/blob/main/README.md)
+ 
  <img width="1420" alt="image" src="https://user-images.githubusercontent.com/112728772/212497044-81beae62-bd04-4a8e-ae07-29a037f86fbc.png">
 
-
- ### Gitpode
-
  ### Heroku
- <img width="1431" alt="image" src="https://user-images.githubusercontent.com/112728772/212567101-57efd8fe-86c0-4cc8-b721-7f87641f213f.png">
+ - Log in Heroku website;
+ - Click "New" and select > "Create new app";
+
+  <img width="1431" alt="image" src="https://user-images.githubusercontent.com/112728772/212567101-57efd8fe-86c0-4cc8-b721-7f87641f213f.png">
  
-<img width="1434" alt="image" src="https://user-images.githubusercontent.com/112728772/212567121-0e842119-f6e0-47e8-b358-dc26e5f308d2.png">
+- Choose the name of the app, region and click on > "Create App";
 
-<img width="1253" alt="image" src="https://user-images.githubusercontent.com/112728772/212567270-255618bf-c64b-441b-a075-48a33409cfa7.png">
+ <img width="1434" alt="image" src="https://user-images.githubusercontent.com/112728772/212567121-0e842119-f6e0-47e8-b358-dc26e5f308d2.png">
 
-<img width="1432" alt="image" src="https://user-images.githubusercontent.com/112728772/212567657-344b7937-332c-4f0c-9d5b-1f67c8f620c7.png">
+- Buildpacks need to be added. First Python and second is node.js in this follow sequence. Save this section.
+ Deploy:
 
-<img width="1288" alt="image" src="https://user-images.githubusercontent.com/112728772/212567722-37180822-1fd8-409c-9626-e90fe91e1c5d.png">
+ <img width="1253" alt="image" src="https://user-images.githubusercontent.com/112728772/212567270-255618bf-c64b-441b-a075-48a33409cfa7.png">
+
+- The "Deploy" section needs to be selected from the menu and connect it to Github;
+- Firts enter the name of your repository that you want to connect, the click > "connect";
+
+ <img width="1432" alt="image" src="https://user-images.githubusercontent.com/112728772/212567657-344b7937-332c-4f0c-9d5b-1f67c8f620c7.png">
+
+- A choice will appear, you can Deploy either automatic or manual deployment, which deploys the current state of the branch;
+- Then you can click on Heroku app > "Deploy Branch".
+
+ <img width="1288" alt="image" src="https://user-images.githubusercontent.com/112728772/212567722-37180822-1fd8-409c-9626-e90fe91e1c5d.png">
 
 
 
