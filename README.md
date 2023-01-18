@@ -299,6 +299,13 @@ https://user-images.githubusercontent.com/112728772/212769897-fb339cc9-cf31-4209
 
  <img width="1288" alt="image" src="https://user-images.githubusercontent.com/112728772/212567722-37180822-1fd8-409c-9626-e90fe91e1c5d.png">
 
+ ### Gitpod
+ - Fork the branch for your own use.
+ - Install gitpod extension from [extension](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+ - Go to your github page and click the green gitpod button.
+ - Install the requirements `pip3 install -r requirements.txt`.
+ - Start the program `python3 run.py`
+
 
 ### Credits
  - I would like to thank my mentor Malia for her help, tips and advise all the time.
