@@ -2,7 +2,7 @@
 
 <img width="1308" alt="image" src="https://user-images.githubusercontent.com/112728772/212570491-f28b6c86-58c8-436b-8591-28cd1c616d88.png">
 
-- Hangman is a classic word guessing game in which players must correctly guess a word (that will be pick randomly in the list of words by the computer) before a certain number of incorrect guesses are made. Players can make guesses by suggesting letters that they think are in the word, and if the suggested letter is in the word, it is revealed in its correct position(s). If the suggested letter is not in the word, a part of the hangman drawing is added, and the player loses a "lives". The game is typically won by the player who correctly guesses the word before the hangman is fully drawn in the screen.
+Hangman is a classic word guessing game in which players must correctly guess a word (that will be pick randomly in the list of words by the computer) before a certain number of incorrect guesses are made. Players can make guesses by suggesting letters that they think are in the word, and if the suggested letter is in the word, it is revealed in its correct position(s). If the suggested letter is not in the word, a part of the hangman drawing is added, and the player loses a "lives". The game is typically won by the player who correctly guesses the word before the hangman is fully drawn in the screen.
 
 ## Live Site 
 [https://hangman-gameplay.herokuapp.com/](https://hangman-gameplay.herokuapp.com/)
@@ -21,7 +21,7 @@ Giovani Fonseca
     * [User Goals](#user-goal)
     * [User Stories](#user-stories)
     * [How to Play](#how-to-play)  
-    * [Desing](#desing)
+    * [Design](#design)
         * [Flowchart](#flowchart)
 
 2. [Features](#features)
@@ -56,7 +56,9 @@ Giovani Fonseca
 ## UX Development
 
 ### Project Goal 
-- Ensuring that the game are working with no errors and perfectly.
+- Have a easy and intuitive Hangman game for users to play.
+- Ensuring that the game are working with no errors.
+- Produce 100% valid python code.
 
 ## User Goal
 - Want to easily navigate through the game with simple inputs.
@@ -69,7 +71,7 @@ Giovani Fonseca
 - Show me the correct word at the end.
 - Show me an optional message if I want to try again the game.
 
-## Desing
+## Design
 
 ### Flowchart
 
@@ -92,39 +94,89 @@ https://user-images.githubusercontent.com/112728772/212769897-fb339cc9-cf31-4209
 
 
 ## Features 
+### Welcome Screen
+- 
 
-A input where the user can write his name, and a message with the user's name will appear on the screen:
+### Collect User Name
+
+- Strips leading/trailing spaces so when name is outputted, it looks nicely spaced.
+- Allows alpha-numeric and special characters so user has freedom to enter whatever they want.
+- Recaps user name with color change.
 
  <img width="731" alt="image" src="https://user-images.githubusercontent.com/112728772/212767436-713c4fc1-fec0-429b-b789-589083d4522e.png">
 
+### Main Menu
 
-A user input that the user chooses whether to Start the Game, View the rules, or Quit:
+- A main place so user can play many times, see rules or exit program.
+- Input is stipped of leading/trailing spaces so user has high chances of successful input.
+- Loops for input until valid option is collected with a nice error message and restatement of valid options.
 
  <img width="733" alt="image" src="https://user-images.githubusercontent.com/112728772/212765718-a1304f57-de48-4622-8501-fe2090433602.png">
 
-
-If user chooses 1, Game Start:
+### Playing Game
+- If user chooses 1, Game Start.
 
  <img width="740" alt="image" src="https://user-images.githubusercontent.com/112728772/212763046-715ef651-2ef7-4654-b17e-603c41000469.png">
 
-If the user chooses 2, the Rules will appear on the screen (the user can press any key to return to the menu options):
+### Rules
+- Only takes up 1 screen.
+- Easy to read rules of the game.
+- User can sit in rules as long as they want.
+- Any key entry puts user back to main menu.
 
  <img width="735" alt="image" src="https://user-images.githubusercontent.com/112728772/212763194-ff81ab41-ebf4-4025-9fc7-6e41bd57f778.png">
 
-If the user chooses 3, the Game is over and a fancy "Goodbye" is displayed on the screen:
+### GoodBye Message
+- Provides user a good sense of game is over with matching font as welcome screen.
 
   <img width="735" alt="image" src="https://user-images.githubusercontent.com/112728772/212763461-a56ab092-540e-4d32-bb4c-5c91af369f78.png">
 
-Win by Letter:
+### Available Letters
+- Recaps what letters the  user can guess.
+- Gets updated as user makes guesses that just one letter.
+IMAGE GOES HERE
 
+### Death Graphic
+- Update as user makes invalid guess with water lever rising up.
+- Starts with stick man in a box.
+- Ends with just a box of water.
+IMAGE GOES HERE
+
+### Collect Guess
+- Strips leading and trailing spacings and compares without case sensitivity so user has better chance providing valid entries.
+- If user enters non letters, user will be told invalid guess, and board will redraw after 2 seconds without losing a life.
+- If user enters a word that is not the right length, user will be told invalid guess, and board will redraw after 2 seconds without losing a life.
+- If user guesses a single letter that is in the word, user gets a positive message, and board will redraw after 2 seconds.
+- If user guesses a single letter that is not in the word, user gets negative message, and the board will redraw after 2 seconds.
+- If user guesses a word that is the right length, but not the correct word, user gets a negative message, and the board will redraw after 2 seconds.
+- If user guesses the correct word, they get a positive message and win message that is in green. Then is taken to the main menu after 2 seconds.
+IMAGE GOES HERE
+
+### Word Display
+- The word is displayed initially as plus signs with a space between so the user knows how long the word they are guessing is.
+- correctly guessed letters fill in the plus signs as user makes guesses.
+IMAGE GOES HERE
+
+### Lives Left
+- is red so it stands out to the user.
+- reduces everytime a new invalid guess is made.
+IMAGE GOES HERE
+
+### Letters Guessed
+- gets updated every time the user makes an invalid letter guess.
+
+### Words Guessed
+- gets updated each time the user makes an invalid word guess (spelling does not matter).
+
+### Guess Prompt
+- If the user has lives left, the user is prompted for a new guess.
+
+### Win Message 
+- If user guesses by letters, or by word, the user sees a winning message
  <img width="737" alt="image" src="https://user-images.githubusercontent.com/112728772/212762527-a09b165b-a695-4826-bf8d-59d2b8f2e0ab.png">
 
-Win by Word:
-
- <img width="729" alt="image" src="https://user-images.githubusercontent.com/112728772/212764290-c9bc9737-bbd0-4f4b-993f-0d383c9016a2.png">
-
-If the user runs out of lives, a message appears with the correct word, and the user can choose, Play Game, see the Rules or Quit:
-
+### Loss message
+- If the user makes 6 invalid guesses, they see a looser message
  <img width="728" alt="image" src="https://user-images.githubusercontent.com/112728772/212763920-dbeab556-e960-4513-a731-879c37f5e1d0.png">
 
 ## Future Features

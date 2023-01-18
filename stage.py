@@ -76,4 +76,3 @@ STAGES = [  # final state: all water
                    ---------------
                 """
     ]
-

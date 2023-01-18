@@ -37,6 +37,8 @@ def start_game():
         display_rules()
         input(Fore.YELLOW + "Press any key to go back to the main menu.\n")
         start_game()
+    elif answer == "3":
+        return
 
 
 def display_rules():
@@ -59,7 +61,7 @@ def display_rules():
     
     As you make guesses that are correct the proper placement of letters
     are filled in.
-    
+
     If you make an incorrect guess, the water level rises an you number of
     tries left goes down.
 
@@ -226,11 +228,11 @@ class HangmanGame:
 
         if self.user_guessed:
             sleep(1)
-            print(Fore.GREEN + f'Congrats, you guessed the exactly word "{self.word}", YOU ROCK!')  # noqa
+            print(Fore.GREEN + f'Congrats, "{self.word}" is the correct word, YOU ROCK!')  # noqa
         else:
             sleep(1)
             print(
-                Fore.LIGHTRED_EX + f'Sorry, you have no more lives! the word was {self.word} you can try again :)')  # noqa
+                Fore.LIGHTRED_EX + f'Sorry, you have no more lives!. The correct word was {self.word} please play again :)')  # noqa
         # END HERE
 
     def display_hangman(self):
