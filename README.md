@@ -71,14 +71,6 @@ Giovani Fonseca
 - Show me the correct word at the end.
 - Show me an optional message if I want to try again the game.
 
-## Design
-
-### Flowchart
-
-<img width="911" alt="image" src="https://user-images.githubusercontent.com/112728772/212774770-06682e03-ea47-4c77-811b-b011ebb9676d.png">
-
-
-
 ## How to Play
 - The user needs to type "1" to start the game or "2" to quit.
 - The user enter his/her name.
@@ -91,6 +83,12 @@ Giovani Fonseca
 How to play video:
 
 https://user-images.githubusercontent.com/112728772/212769897-fb339cc9-cf31-4209-b606-22c7e9222c0f.mp4
+
+## Design
+
+### Flowchart
+
+<img width="911" alt="image" src="https://user-images.githubusercontent.com/112728772/212774770-06682e03-ea47-4c77-811b-b011ebb9676d.png">
 
 
 ## Features 
