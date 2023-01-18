@@ -3,9 +3,9 @@ import string
 from time import sleep
 import os
 from colorama import Fore
+import pyfiglet
 from words import WORDS_LIST
 from stage import STAGES
-import pyfiglet
 
 
 def start_game():
@@ -46,19 +46,19 @@ def display_rules():
     Display the rules of the Hangman game.
     The function will print the main objective, gameplay and the number of tries the user has to correctly guess the word.  # noqa
     """
-    
+
     print("""
     The main objective of Hangman is to guess a word within 6 tries
-    by entering letters or a word of the same length as the one you 
-    are trying to solve.  
+    by entering letters or a word of the same length as the one you
+    are trying to solve.
 
     When you play Hangman, you are presented a screen with available letters.
     A pixelated human in a tank with a rising water level.
 
-    A series of + symbols indicated the length of the word, 
-    the number of lives left, a recap of the letters you have guessed, 
+    A series of + symbols indicated the length of the word,
+    the number of lives left, a recap of the letters you have guessed,
     and a recap of words guessed.
-    
+
     As you make guesses that are correct the proper placement of letters
     are filled in.
 

@@ -263,28 +263,13 @@ https://user-images.githubusercontent.com/112728772/212769897-fb339cc9-cf31-4209
 - [python random library](https://docs.python.org/3/library/random.html?#module-random ".py random") For selection a random word from the deck
 - [Gitpod](https://www.gitpod.io/) - Used to build the gme.
 - [Colorama](https://pypi.org/project/colorama/) - Used to put some color in the text.
+- [pyfiglet](https://pypi.org/project/pyfiglet/0.7/) Used for fonts.
 - [Am I Responsive](https://ui.dev/amiresponsive) - Used to creat an image displaying the homepage on multiple devices.
 - [Table Generator](https://www.tablesgenerator.com/) Used to make a table explaining the model/methods of the class.
 - [PEP8 Validator](https://pep8ci.herokuapp.com/) For Python validation.
 
 
-### Deployment 
-
-#### link of the site here 
-
- The site was deployed by Heroku pages. The steps are:
- - Log in Heroku website;
- - Click "New" and select > "Create new app";
- - Choose the name of the app, region and click on > "Create App";
- - In the menu section only the "Deploy" and "Settings" are relevant.
- Settings firts:
- - Buildpacks need to be added. First Python and second is node.js in this follow sequence. Save this section.
- Deploy:
- - The "Deploy" section needs to be selected from the menu and connect it to Github;
- - Firts enter the name of your repository that you want to connect, the click > "connect";
- - A choice will appear, you can Deploy either automatic or manual deployment, which deploys the current state of the branch;
- - Then you can click on Heroku app > "Deploy Branch".
-
+## Deployment 
  ### Fork the repository
 
 [https://github.com/Giov3ss/Hangman-Game/blob/main/README.md](https://github.com/Giov3ss/Hangman-Game/blob/main/README.md)
