@@ -95,7 +95,8 @@ https://user-images.githubusercontent.com/112728772/212769897-fb339cc9-cf31-4209
 
 ## Features 
 ### Welcome Screen
-- 
+
+<img width="728" alt="image" src="https://user-images.githubusercontent.com/112728772/213234042-33111661-61cc-47a7-a01d-339d4a4304ca.png">
 
 ### Collect User Name
 
@@ -103,7 +104,7 @@ https://user-images.githubusercontent.com/112728772/212769897-fb339cc9-cf31-4209
 - Allows alpha-numeric and special characters so user has freedom to enter whatever they want.
 - Recaps user name with color change.
 
- <img width="731" alt="image" src="https://user-images.githubusercontent.com/112728772/212767436-713c4fc1-fec0-429b-b789-589083d4522e.png">
+<img width="731" alt="image" src="https://user-images.githubusercontent.com/112728772/212767436-713c4fc1-fec0-429b-b789-589083d4522e.png">
 
 ### Main Menu
 
@@ -129,18 +130,22 @@ https://user-images.githubusercontent.com/112728772/212769897-fb339cc9-cf31-4209
 ### GoodBye Message
 - Provides user a good sense of game is over with matching font as welcome screen.
 
-  <img width="735" alt="image" src="https://user-images.githubusercontent.com/112728772/212763461-a56ab092-540e-4d32-bb4c-5c91af369f78.png">
+ <img width="735" alt="image" src="https://user-images.githubusercontent.com/112728772/212763461-a56ab092-540e-4d32-bb4c-5c91af369f78.png">
 
 ### Available Letters
 - Recaps what letters the  user can guess.
 - Gets updated as user makes guesses that just one letter.
-IMAGE GOES HERE
+
+ <img width="732" alt="image" src="https://user-images.githubusercontent.com/112728772/213234502-e03b84b4-704a-42be-8bf4-ac04e38459e9.png">
+
 
 ### Death Graphic
 - Update as user makes invalid guess with water lever rising up.
 - Starts with stick man in a box.
 - Ends with just a box of water.
-IMAGE GOES HERE
+
+ <img width="726" alt="image" src="https://user-images.githubusercontent.com/112728772/213234777-9f0f4030-dbd9-467c-ac46-4a09d3c1e058.png">
+
 
 ### Collect Guess
 - Strips leading and trailing spacings and compares without case sensitivity so user has better chance providing valid entries.
@@ -150,33 +155,41 @@ IMAGE GOES HERE
 - If user guesses a single letter that is not in the word, user gets negative message, and the board will redraw after 2 seconds.
 - If user guesses a word that is the right length, but not the correct word, user gets a negative message, and the board will redraw after 2 seconds.
 - If user guesses the correct word, they get a positive message and win message that is in green. Then is taken to the main menu after 2 seconds.
-IMAGE GOES HERE
 
 ### Word Display
 - The word is displayed initially as plus signs with a space between so the user knows how long the word they are guessing is.
 - correctly guessed letters fill in the plus signs as user makes guesses.
-IMAGE GOES HERE
+
+ <img width="730" alt="image" src="https://user-images.githubusercontent.com/112728772/213235921-5670298f-d0d5-412a-a4a2-eefb052abce5.png">
 
 ### Lives Left
 - is red so it stands out to the user.
 - reduces everytime a new invalid guess is made.
-IMAGE GOES HERE
+
+ <img width="730" alt="image" src="https://user-images.githubusercontent.com/112728772/213236149-bf23a53c-7efe-44c2-af1f-eb47680234be.png">
 
 ### Letters Guessed
-- gets updated every time the user makes an invalid letter guess.
+- Is updated every time the user guesses a letter.
+
+ <img width="726" alt="image" src="https://user-images.githubusercontent.com/112728772/213236885-4b3843d5-71d5-4875-9b2e-bea3c2b4a8db.png">
 
 ### Words Guessed
 - gets updated each time the user makes an invalid word guess (spelling does not matter).
 
+ <img width="730" alt="image" src="https://user-images.githubusercontent.com/112728772/213237281-4ed156bf-6cc2-4d1d-bfa7-691a6f459fb6.png">
+
 ### Guess Prompt
 - If the user has lives left, the user is prompted for a new guess.
+ <img width="731" alt="image" src="https://user-images.githubusercontent.com/112728772/213237469-7e120bbb-e399-4491-b10a-a0f2146d7510.png">
 
 ### Win Message 
-- If user guesses by letters, or by word, the user sees a winning message
+- If user guesses by letters, or by word, the user sees a winning message.
+
  <img width="737" alt="image" src="https://user-images.githubusercontent.com/112728772/212762527-a09b165b-a695-4826-bf8d-59d2b8f2e0ab.png">
 
 ### Loss message
 - If the user makes 6 invalid guesses, they see a looser message
+
  <img width="728" alt="image" src="https://user-images.githubusercontent.com/112728772/212763920-dbeab556-e960-4513-a731-879c37f5e1d0.png">
 
 ## Future Features
