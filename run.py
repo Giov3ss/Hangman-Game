@@ -123,15 +123,15 @@ class HangmanGame:
 
     display_hangman(self):
         This function will display the available letters for the user,
-     the current stage of the hangman game, the current display of the word for the user's guesses,
+        the current stage of the hangman game, the current display of the word for the user's guesses,
         the number of lives remaining for the user, the letters that the user has already guessed,
         and the words that the user has already guessed.
 
     main():
-    This function is the main entry point of the game, it will run the whole hangman game. # noqa
-    The function starts by greeting the user, with a fancy text,
-     then it will call the username() function to get the user's name and the start_game() function to start the game.  # noqa
-    Once the game is completed, the function will say a fancy good bye to the user.  # noqa
+        This function is the main entry point of the game, it will run the whole hangman game. # noqa
+        The function starts by greeting the user, with a fancy text,
+        then it will call the username() function to get the user's name and the start_game() function to start the game.  # noqa
+        Once the game is completed, the function will say a fancy good bye to the user.  # noqa
 
     """
 
@@ -141,7 +141,7 @@ class HangmanGame:
 
         Attributes:
         word (str): The word to be guessed.
-        display_word (str): The word to be displayed, with unguessed letters replaced by underscores.
+        display_word (str): The word to be displayed, with unguessed letters replaced by plus sign.
         user_guessed (bool): Whether the user has correctly guessed the word.
         letter_guessed (list): A list of letters that have been guessed.
         words_guessed (list): A list of words that have been guessed.
