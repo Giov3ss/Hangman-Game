@@ -8,7 +8,7 @@ Hangman is a classic word guessing game in which players must correctly guess a 
 [https://hangman-gameplay.herokuapp.com/](https://hangman-gameplay.herokuapp.com/)
 
 ## Repository
-[https://github.com/Giov3ss/Hangman-Game/blob/main/README.md](https://github.com/Giov3ss/Hangman-Game/blob/main/README.md)
+[https://github.com/Giov3ss/Hangman-Game](https://github.com/Giov3ss/Hangman-Game)
 
 ## Author
 
