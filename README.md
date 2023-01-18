@@ -125,7 +125,8 @@ https://user-images.githubusercontent.com/112728772/212769897-fb339cc9-cf31-4209
 - User can sit in rules as long as they want.
 - Any key entry puts user back to main menu.
 
- <img width="735" alt="image" src="https://user-images.githubusercontent.com/112728772/212763194-ff81ab41-ebf4-4025-9fc7-6e41bd57f778.png">
+ <img width="730" alt="image" src="https://user-images.githubusercontent.com/112728772/213239347-832ed39f-19db-493f-9388-e658f46db500.png">
+
 
 ### GoodBye Message
 - Provides user a good sense of game is over with matching font as welcome screen.
@@ -184,13 +185,11 @@ https://user-images.githubusercontent.com/112728772/212769897-fb339cc9-cf31-4209
 
 ### Win Message 
 - If user guesses by letters, or by word, the user sees a winning message.
-
- <img width="737" alt="image" src="https://user-images.githubusercontent.com/112728772/212762527-a09b165b-a695-4826-bf8d-59d2b8f2e0ab.png">
+ <img width="732" alt="image" src="https://user-images.githubusercontent.com/112728772/213240107-5eeb5e68-ed2e-4612-b200-e0dae97e375f.png">
 
 ### Loss message
 - If the user makes 6 invalid guesses, they see a looser message
-
- <img width="728" alt="image" src="https://user-images.githubusercontent.com/112728772/212763920-dbeab556-e960-4513-a731-879c37f5e1d0.png">
+ <img width="731" alt="image" src="https://user-images.githubusercontent.com/112728772/213240708-a495626d-2af3-4df3-a914-d85ba81a8b01.png">
 
 ## Future Features
 
