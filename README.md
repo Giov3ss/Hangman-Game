@@ -44,6 +44,7 @@ Giovani Fonseca
 7. [Deployment](#deployment)
     * [Fork the repository](fork-the-repository)
     * [Heroku](#heroku)
+    * [Gitpod](#gitpod)
   
 8. [Credits](#credits)
     * [Media](#media)  
