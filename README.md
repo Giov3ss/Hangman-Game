@@ -221,13 +221,13 @@ https://user-images.githubusercontent.com/112728772/212769897-fb339cc9-cf31-4209
 ### Validation Testing
 
 - run.py
-<img width="1163" alt="image" src="https://user-images.githubusercontent.com/112728772/212565966-a76c2e91-6eda-475a-a684-9b5d54ac415f.png">
+<img width="1098" alt="image" src="https://user-images.githubusercontent.com/112728772/213248841-cfae057c-b458-4f1a-ad3e-4190bd338e53.png">
 
 - words.py
 <img width="1117" alt="image" src="https://user-images.githubusercontent.com/112728772/212566110-e16f32f7-0232-4ca2-9c0e-49767c5037f2.png">
 
 - stage.py
-<img width="1204" alt="image" src="https://user-images.githubusercontent.com/112728772/212566005-590d2ec4-68cb-45f6-8c10-86ca0851d04b.png">
+<img width="1100" alt="image" src="https://user-images.githubusercontent.com/112728772/213249257-f3309b88-c6aa-4e24-b297-c52f02b60405.png">
 
 ### Manual Testing
 - [x] Input asking if the user wants to play is working.
