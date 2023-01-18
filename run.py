@@ -51,16 +51,17 @@ def display_rules():
     are trying to solve.  
 
     When you play Hangman, you are presented a screen with available letters.
-    A pixelated hanman gallows that is empty to start with.
+    A pixelated human in a tank with a rising water level.
 
     A series of + symbols indicated the length of the word, 
     the number of lives left, a recap of the letters you have guessed, 
     and a recap of words guessed.
     
-    As you make guesses that are correct the proper placement of letters 
+    As you make guesses that are correct the proper placement of letters
     are filled in.
-    If you make an incorrect guess a body part is added to the hangman graphic
-    and your number of tries left goes down.
+    
+    If you make an incorrect guess, the water level rises an you number of
+    tries left goes down.
 
     You have 6 guesses to start with.
 
@@ -75,7 +76,7 @@ def username():
     Prints a greeting message including the player's name.
     """
 
-    name = input(Fore.LIGHTWHITE_EX + 'Enter your name: \n')
+    name = input(Fore.LIGHTWHITE_EX + 'Enter your name: \n').strip()
     print(Fore.YELLOW + f"Hey, {name}! Let's see how good you are.")
     sleep(1)
 
